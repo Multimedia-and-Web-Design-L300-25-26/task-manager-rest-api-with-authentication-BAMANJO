@@ -1,5 +1,9 @@
 import mongoose from "mongoose";
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0d48d89afdc5bc63a745997571f640b46ffc8420
 // Create User schema
 // Fields:
 // - name (String, required)
@@ -7,6 +11,7 @@ import mongoose from "mongoose";
 // - password (String, required, minlength 6)
 // - createdAt (default Date.now)
 
+<<<<<<< HEAD
 const userSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -32,8 +37,18 @@ const userSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
+=======
+
+
+const userSchema = new mongoose.Schema({
+  // Students implement
+>>>>>>> 0d48d89afdc5bc63a745997571f640b46ffc8420
 });
 
 const User = mongoose.model("User", userSchema);
 
+<<<<<<< HEAD
 export default User;
+=======
+export default User;
+>>>>>>> 0d48d89afdc5bc63a745997571f640b46ffc8420
