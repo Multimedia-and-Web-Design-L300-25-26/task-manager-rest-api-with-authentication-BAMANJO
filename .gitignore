@@ -1,2 +1,7 @@
 node_modules/
+<<<<<<< HEAD
 .env
+.bruno.json
+=======
+.env
+>>>>>>> 0d48d89afdc5bc63a745997571f640b46ffc8420
